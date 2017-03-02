@@ -1,0 +1,68 @@
+[01-Mar-2017 19:13:36 UTC] PHP Fatal error:  Call to undefined method Cake\ORM\Entity::invalidFields() in /var/www/html/cake2/src/Template/Pages/connection.ctp on line 33
+[01-Mar-2017 19:13:36 UTC] PHP Stack trace:
+[01-Mar-2017 19:13:36 UTC] PHP   1. {main}() /var/www/html/cake2/webroot/index.php:0
+[01-Mar-2017 19:13:36 UTC] PHP   2. Cake\Http\Server->run() /var/www/html/cake2/webroot/index.php:38
+[01-Mar-2017 19:13:36 UTC] PHP   3. Cake\Http\Runner->run() /var/www/html/cake2/vendor/cakephp/cakephp/src/Http/Server.php:90
+[01-Mar-2017 19:13:36 UTC] PHP   4. Cake\Http\Runner->__invoke() /var/www/html/cake2/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[01-Mar-2017 19:13:36 UTC] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /var/www/html/cake2/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[01-Mar-2017 19:13:36 UTC] PHP   6. Cake\Http\Runner->__invoke() /var/www/html/cake2/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[01-Mar-2017 19:13:36 UTC] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /var/www/html/cake2/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[01-Mar-2017 19:13:36 UTC] PHP   8. Cake\Http\Runner->__invoke() /var/www/html/cake2/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[01-Mar-2017 19:13:36 UTC] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /var/www/html/cake2/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[01-Mar-2017 19:13:36 UTC] PHP  10. Cake\Http\Runner->__invoke() /var/www/html/cake2/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:62
+[01-Mar-2017 19:13:36 UTC] PHP  11. Cake\Http\BaseApplication->__invoke() /var/www/html/cake2/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[01-Mar-2017 19:13:36 UTC] PHP  12. Cake\Http\ActionDispatcher->dispatch() /var/www/html/cake2/vendor/cakephp/cakephp/src/Http/BaseApplication.php:83
+[01-Mar-2017 19:13:36 UTC] PHP  13. Cake\Http\ActionDispatcher->_invoke() /var/www/html/cake2/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:95
+[01-Mar-2017 19:13:36 UTC] PHP  14. Cake\Controller\Controller->invokeAction() /var/www/html/cake2/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:121
+[01-Mar-2017 19:13:36 UTC] PHP  15. call_user_func_array:{/var/www/html/cake2/vendor/cakephp/cakephp/src/Controller/Controller.php:435}() /var/www/html/cake2/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[01-Mar-2017 19:13:36 UTC] PHP  16. App\Controller\PagesController->display() /var/www/html/cake2/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[01-Mar-2017 19:13:36 UTC] PHP  17. Cake\Controller\Controller->render() /var/www/html/cake2/src/Controller/PagesController.php:62
+[01-Mar-2017 19:13:36 UTC] PHP  18. Cake\View\View->render() /var/www/html/cake2/vendor/cakephp/cakephp/src/Controller/Controller.php:617
+[01-Mar-2017 19:13:36 UTC] PHP  19. Cake\View\View->_render() /var/www/html/cake2/vendor/cakephp/cakephp/src/View/View.php:597
+[01-Mar-2017 19:13:36 UTC] PHP  20. Cake\View\View->_evaluate() /var/www/html/cake2/vendor/cakephp/cakephp/src/View/View.php:973
+[01-Mar-2017 19:13:36 UTC] PHP  21. include() /var/www/html/cake2/vendor/cakephp/cakephp/src/View/View.php:1014
+[01-Mar-2017 19:24:47 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/cake2/src/Template/Pages/connection.ctp on line 78
+[01-Mar-2017 19:24:47 UTC] PHP Stack trace:
+[01-Mar-2017 19:24:47 UTC] PHP   1. {main}() /var/www/html/cake2/webroot/index.php:0
+[01-Mar-2017 19:24:47 UTC] PHP   2. Cake\Http\Server->run() /var/www/html/cake2/webroot/index.php:38
+[01-Mar-2017 19:24:47 UTC] PHP   3. Cake\Http\Runner->run() /var/www/html/cake2/vendor/cakephp/cakephp/src/Http/Server.php:90
+[01-Mar-2017 19:24:47 UTC] PHP   4. Cake\Http\Runner->__invoke() /var/www/html/cake2/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[01-Mar-2017 19:24:47 UTC] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /var/www/html/cake2/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[01-Mar-2017 19:24:47 UTC] PHP   6. Cake\Http\Runner->__invoke() /var/www/html/cake2/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[01-Mar-2017 19:24:47 UTC] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /var/www/html/cake2/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[01-Mar-2017 19:24:47 UTC] PHP   8. Cake\Http\Runner->__invoke() /var/www/html/cake2/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[01-Mar-2017 19:24:47 UTC] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /var/www/html/cake2/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[01-Mar-2017 19:24:47 UTC] PHP  10. Cake\Http\Runner->__invoke() /var/www/html/cake2/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:62
+[01-Mar-2017 19:24:47 UTC] PHP  11. Cake\Http\BaseApplication->__invoke() /var/www/html/cake2/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[01-Mar-2017 19:24:47 UTC] PHP  12. Cake\Http\ActionDispatcher->dispatch() /var/www/html/cake2/vendor/cakephp/cakephp/src/Http/BaseApplication.php:83
+[01-Mar-2017 19:24:47 UTC] PHP  13. Cake\Http\ActionDispatcher->_invoke() /var/www/html/cake2/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:95
+[01-Mar-2017 19:24:47 UTC] PHP  14. Cake\Controller\Controller->invokeAction() /var/www/html/cake2/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:121
+[01-Mar-2017 19:24:47 UTC] PHP  15. call_user_func_array:{/var/www/html/cake2/vendor/cakephp/cakephp/src/Controller/Controller.php:435}() /var/www/html/cake2/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[01-Mar-2017 19:24:47 UTC] PHP  16. App\Controller\PagesController->display() /var/www/html/cake2/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[01-Mar-2017 19:24:47 UTC] PHP  17. Cake\Controller\Controller->render() /var/www/html/cake2/src/Controller/PagesController.php:62
+[01-Mar-2017 19:24:47 UTC] PHP  18. Cake\View\View->render() /var/www/html/cake2/vendor/cakephp/cakephp/src/Controller/Controller.php:617
+[01-Mar-2017 19:24:47 UTC] PHP  19. Cake\View\View->_render() /var/www/html/cake2/vendor/cakephp/cakephp/src/View/View.php:597
+[01-Mar-2017 19:24:47 UTC] PHP  20. Cake\View\View->_evaluate() /var/www/html/cake2/vendor/cakephp/cakephp/src/View/View.php:973
+[01-Mar-2017 19:56:17 UTC] PHP Fatal error:  Call to a member function update() on a non-object in /var/www/html/cake2/src/Template/Pages/connection.ctp on line 18
+[01-Mar-2017 19:56:17 UTC] PHP Stack trace:
+[01-Mar-2017 19:56:17 UTC] PHP   1. {main}() /var/www/html/cake2/webroot/index.php:0
+[01-Mar-2017 19:56:17 UTC] PHP   2. Cake\Http\Server->run() /var/www/html/cake2/webroot/index.php:38
+[01-Mar-2017 19:56:17 UTC] PHP   3. Cake\Http\Runner->run() /var/www/html/cake2/vendor/cakephp/cakephp/src/Http/Server.php:90
+[01-Mar-2017 19:56:17 UTC] PHP   4. Cake\Http\Runner->__invoke() /var/www/html/cake2/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[01-Mar-2017 19:56:17 UTC] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /var/www/html/cake2/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[01-Mar-2017 19:56:17 UTC] PHP   6. Cake\Http\Runner->__invoke() /var/www/html/cake2/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[01-Mar-2017 19:56:17 UTC] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /var/www/html/cake2/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[01-Mar-2017 19:56:17 UTC] PHP   8. Cake\Http\Runner->__invoke() /var/www/html/cake2/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[01-Mar-2017 19:56:17 UTC] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /var/www/html/cake2/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[01-Mar-2017 19:56:17 UTC] PHP  10. Cake\Http\Runner->__invoke() /var/www/html/cake2/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:62
+[01-Mar-2017 19:56:17 UTC] PHP  11. Cake\Http\BaseApplication->__invoke() /var/www/html/cake2/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[01-Mar-2017 19:56:17 UTC] PHP  12. Cake\Http\ActionDispatcher->dispatch() /var/www/html/cake2/vendor/cakephp/cakephp/src/Http/BaseApplication.php:83
+[01-Mar-2017 19:56:17 UTC] PHP  13. Cake\Http\ActionDispatcher->_invoke() /var/www/html/cake2/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:95
+[01-Mar-2017 19:56:17 UTC] PHP  14. Cake\Controller\Controller->invokeAction() /var/www/html/cake2/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:121
+[01-Mar-2017 19:56:17 UTC] PHP  15. call_user_func_array:{/var/www/html/cake2/vendor/cakephp/cakephp/src/Controller/Controller.php:435}() /var/www/html/cake2/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[01-Mar-2017 19:56:17 UTC] PHP  16. App\Controller\PagesController->display() /var/www/html/cake2/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[01-Mar-2017 19:56:17 UTC] PHP  17. Cake\Controller\Controller->render() /var/www/html/cake2/src/Controller/PagesController.php:62
+[01-Mar-2017 19:56:17 UTC] PHP  18. Cake\View\View->render() /var/www/html/cake2/vendor/cakephp/cakephp/src/Controller/Controller.php:617
+[01-Mar-2017 19:56:17 UTC] PHP  19. Cake\View\View->_render() /var/www/html/cake2/vendor/cakephp/cakephp/src/View/View.php:597
+[01-Mar-2017 19:56:17 UTC] PHP  20. Cake\View\View->_evaluate() /var/www/html/cake2/vendor/cakephp/cakephp/src/View/View.php:973
+[01-Mar-2017 19:56:17 UTC] PHP  21. include() /var/www/html/cake2/vendor/cakephp/cakephp/src/View/View.php:1014
